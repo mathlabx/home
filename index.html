@@ -647,6 +647,14 @@
         <!--contact end-->
     </div>
     <!--all the divisions-->
+    <script>
+        // 检测屏幕宽度
+        if (window.innerWidth <= 768) { // 这里假设手机端的最大宽度是768px
+            document.title = "M. P. C. Lab";
+            document.getElementById("loader").innerHTML = "M. P. C. Lab";
+            document.querySelector(".firstline").innerHTML = "<span class='color'>M. P. C. </span>Lab";
+        }
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/particles.min.js"></script>
