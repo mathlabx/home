@@ -96,12 +96,19 @@
                                 class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
                     </div>
                 </div>
+                <script>
+                    function x(p) {
+                        if (p == 'tdd2023'){
+                            alert("欢迎回来Devin，Daniel，Tony！");
+                            window.location='https://app.mathscichem.com';
+                        } else{
+                            alert("密码错误...");
+                        }
+                    }
+                </script>
                 <form>
-                    <button type="button">Developing</button>
+                    <button type="button" onclick="x(prompt('请输入密码'))">Start now</button>
                 </form>
-                <!--<form>
-                    <button type="button" onclick="/*进入项目*/">Start now</button>
-                </form>-->
             </div>
             <!--header image-->
             <div class="header-image">
